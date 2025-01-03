@@ -1,0 +1,64 @@
+/* Basic styles for the Content Aggregator plugin */
+
+/* General container styling */
+.wrap {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Form inputs */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #0073aa;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 115, 170, 0.5);
+}
+
+/* Submit button */
+.button-primary {
+    background-color: #0073aa;
+    border-color: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #005a87;
+    border-color: #005a87;
+}
+
+/* Descriptions */
+.description {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+/* List styling */
+ul.description {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul.description li {
+    margin-bottom: 5px;
+}
